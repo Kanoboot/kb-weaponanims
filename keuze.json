@@ -1,0 +1,8 @@
+{
+  "meta": "vrouw-geweer",
+  "pistool-beweging": "Position SUL",
+  "pistool-cover": "Position SUL",
+  "pistool-stealth": "Position SUL",
+  "geweer-beweging": "Position SUL",
+  "geweer-stealth": "Low Ready"
+}
