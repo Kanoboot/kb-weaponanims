@@ -22,11 +22,5 @@ Bron: de OpenIV-pakketten uit `Grand Theft Auto V\mods`. Controleer op de downlo
 
 Voorbeeldplaatjes van elke stijl staan in de map `Grand Theft Auto V\mods\02. Choose Your Style`.
 
-## Niet getest
-Dit is niet in-game getest. Dingen om te controleren:
-- Of de animaties echt gewijzigd zijn (pistool trekken, lopen, in dekking, geweer in stealth).
-- Of `pedpersonality.ymt` als `PED_PERSONALITY_FILE` geladen wordt. Lukt dat niet, haal dan de laatste `data_file`-regel en de bestandsregel in `fxmanifest.lua` weg: de rest werkt dan nog wel, alleen stealth voor freemode-karakters niet.
-- Of het botst met het wapenpakket `vp897` in `[assets]`: dat heeft ook een eigen `weaponanimations.meta` en `pedpersonality.meta`.
-
 ## Terugdraaien
 Haal `ensure kb-weaponanims` uit de start (of verwijder de map) en herstart de server.
